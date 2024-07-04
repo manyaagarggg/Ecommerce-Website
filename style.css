@@ -17,7 +17,7 @@ header .container{
     height: 67px;
     border-bottom: 1px solid rgb(238,238,238);
     z-index: 1000;
-    background-color: var(--color-white);
+    background-color: rgb(2, 90, 2);
 }
 
 
@@ -48,10 +48,10 @@ header .container{
 
 .search-bar{
     width: 52%;
-    border: 1px solid rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(242, 230, 230, 0.04);
     border-radius: 5px;
-    background: var(--color-grey-2);
-    color: var(--color-grey);
+    background: rgb(49, 152, 49);
+    color: black;
     height: 38px;
     display: flex;
     align-items: center;
@@ -66,10 +66,12 @@ header .container{
     font-size: 10px;
     font-weight: 100;
     width: 100%;
+    color: #000;
 }
 
 .search-input{
     width: 100%;
+    color: #000;
 }
 .search-bar .fa-magnifying-glass{
     width: 13px;
